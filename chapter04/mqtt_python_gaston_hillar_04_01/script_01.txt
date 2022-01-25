@@ -5,5 +5,5 @@
 # or other MQTT server
 # Make sure the IP or hostname matches the value 
 # you used for Common Name
-mosquitto_pub -h 192.168.1.101 -V mqttv311 -p 8883 --cafile ca-crt --cert board001.crt --key board001.key -t vehicles/vehiclepi01/tests -m '{"CMD": "UNLOCK_DOORS"}' -q 2 --tls-version tlsv1.2
-mosquitto_pub -h 192.168.1.101 -V mqttv311 -p 8883 --cafile ca-crt --cert board001.crt --key board001.key -t vehicles/vehiclepi01/tests -m '{"CMD": "TURN_ON_HEADLIGHTS"}' -q 2 --tls-version tlsv1.2
+mosquitto_pub -h 192.168.43.15 -V mqttv311 -p 8883 --cafile ca-crt --cert board001.crt --key board001.key -t vehicles/vehiclepi01/tests -m '{"CMD": "UNLOCK_DOORS"}' -q 2 --tls-version tlsv1.2
+mosquitto_pub -h 192.168.43.15 -V mqttv311 -p 8883 --cafile ca-crt --cert board001.crt --key board001.key -t vehicles/vehiclepi01/tests -m '{"CMD": "TURN_ON_HEADLIGHTS"}' -q 2 --tls-version tlsv1.2
