@@ -17,6 +17,6 @@ client_key = os.path.join(certificates_path, "board001.key")
 # or other MQTT server
 # Make sure the IP or hostname matches the value 
 # you used for Common Name
-mqtt_server_host = "192.168.1.104"
+mqtt_server_host = "192.168.43.15"
 mqtt_server_port = 8883
 mqtt_keepalive = 60
